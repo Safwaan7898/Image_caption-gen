@@ -1,0 +1,25 @@
+# AI Image Caption Generator — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Web UI
+streamlit==1.66.1
+
+# Deep learning framework
+torch==2.14.1
+torchvision==0.29.1
+
+# Hugging Face model hub + model architectures
+transformers>=4.41.2
+huggingface-hub>=0.23.2
+
+# Image processing
+Pillow>=10.3.0
+
+# Numerical computing (required by transformers / torch)
+numpy>=1.26.4
+
+# HTTP requests (used internally by huggingface-hub)
+requests>=2.32.2
+
+# Testing
+pytest>=8.2.2
